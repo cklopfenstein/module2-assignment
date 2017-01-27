@@ -6,7 +6,7 @@
 h1 {
   text-align: center;
   margin-bottom: 15px;
-  font-family: Zapf Chancery, cursive;
+  font-family: Zapf Chancery, Arial, cursive; // not installed on most phones
   font-size: 1.75em;  // make font size 75% bigger than ordinary text-align:
                       // but still smaller than default (2x) for h1
 }
@@ -23,6 +23,7 @@ section {
 
 section header {
   border: 1px solid black;
+  padding: 0px 5px;    // but a little horizontal padding here
   background-color: #00FFFF;
   float: right;
   font-family: Zapf Chancery, cursive;
@@ -34,7 +35,8 @@ p {
                                 // since I made section padding 0.
                                 // Also, this is enough
                                 // padding-top to get text out of
-                                // the way of the section heading.
+                                // the way of the section header.
+  font-family: Arial, Helvetica, sans-serif;
 }
 
 #Orwell1 {
