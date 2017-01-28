@@ -6,50 +6,49 @@
 h1 {
   text-align: center;
   margin-bottom: 15px;
-  font-family: Zapf Chancery, Arial, cursive; // not installed on most phones
-  font-size: 1.75em;  // make font size 75% bigger than ordinary text-align:
-                      // but still smaller than default (2x) for h1
+  font-family: "Comic Sans MS", Times, serif;
+  font-size: 1.75em;  /* make font size 75% bigger than ordinary text-align: */
+                      /* but still smaller than default (2x) for h1 */
 }
 
 section {
   border: 1px solid black;
-  padding: 0;       // no padding for section, since I want section
-                    // header to be flush with top-right corner
+  padding: 0;       /* no padding for section, since I want section */
+                    /* header to be flush with top-right corner */
   margin: 5px;
   background-color: #D8D8D8;  // grey
-  font-family: Verdana, Arial, sans-serif;
   color: black;
 }
 
 section header {
   border: 1px solid black;
-  padding: 0px 5px;    // but a little horizontal padding here
+  padding: 0px 5px;    /* but a little horizontal padding here */
   background-color: #00FFFF;
   float: right;
-  font-family: Zapf Chancery, cursive;
-  font-size: 1.25em;  // header font size 25% bigger than text
+  font-family: Verdana, Helvetica, serif;
+  font-size: 1.25em;  /* header font size 25% bigger than text */
 }
 
 p {
-  padding: 15px 10px 10px 10px; // padding around <p> text,
-                                // since I made section padding 0.
-                                // Also, this is enough
-                                // padding-top to get text out of
-                                // the way of the section header.
-  font-family: Arial, Helvetica, sans-serif;
+  padding: 15px 10px 10px 10px; /* padding around <p> text, */
+                                /* since I made section padding 0. */
+                                /* Also, this is enough */
+                                /* padding-top to get text out of */
+                                /* the way of the section header. */
+  font-family: Verdana, Helvetica, sans-serif;
 }
 
 #Orwell1 {
-  background-color: #00FFFF;  // light blue-green
+  background-color: #00FFFF;  /* light blue-green */
 }
 
 #Orwell2 {
   color: white;
-  background-color: #FF00FF;  // purple
+  background-color: #FF00FF;  /* purple */
 }
 
 #Orwell3 {
-  background-color: #FFFF00;  // yellow
+  background-color: #FFFF00;  /* yellow */
 }
 
 /* Simple Responsive Framework. Adapted from lecture.*/
